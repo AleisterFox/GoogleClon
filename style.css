@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: arial, sans-serif;
+}
+
+
+/*Navbar*/
+
+nav {
+    position: relative;
+}
+
+.navbar {
+    width: 25rem;
+    list-style: none;
+    position: relative;
+    left: 101rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+.dot-menu {
+    font-size: 1.6rem;
+}
+
+.navbar img {
+    height: 3.5rem;
+    aspect-ratio: 1/1; 
+    border-radius: 50%;
+}
+
+
+/*Main Content*/
+
+main {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 28rem;
+    width: 65rem;
+    justify-content: space-between;
+}
+
+.searchBar {
+    height: 4.5rem;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.349);
+    border-radius: 24px;
+}
+
+.searchBar:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.searchBar input {
+    border: 0;
+    width: 90%;
+    height: 80%;
+    font-size: 1.6rem;
+}
+
+.searchBar input:focus {
+    outline: 0 none;
+}
+
+.lupa {
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    font-size: 1.6rem;
+    color: rgba(128, 128, 128, 0.58);
+}
+
+.searchBar img {
+    margin-right: 1.3rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    height: 3.3rem;
+}
+
+button {
+    width: 45%;
+    background-color: rgba(192, 192, 192, 0.148);
+    border: 0;
+    border-radius: 0.2rem;
+}
+
+.btn_l {
+    margin-left: 1rem;
+}
+.btn_r {
+    margin-right: 1rem;
+}
+
+.certificates {
+    font-size: 1.3rem;
+}
+
+.certificates a {
+    text-decoration: none;
+    color: rgb(3, 3, 164);
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(192, 192, 192, 0.148);
+    color: rgba(105, 104, 104, 0.831);
+}
+
+footer ul {
+    list-style: none;
+    margin: auto 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4.8rem;
+    font-size: 1.4rem;
+    border-top: 0.01rem solid rgba(128, 128, 128, 0.235);
+}
+
+.footer_menu ul {
+    margin-left: 3rem;
+}
+
+.footer_menu ul li {
+    margin-right: 2.5rem;
+}
+
+.country {
+    height: 4.8rem;
+    font-size: 1.5rem;
+}
+
+.country p {
+    margin: auto 0;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
