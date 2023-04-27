@@ -66,6 +66,10 @@ main {
     justify-content: space-between;
 }
 
+.logo img {
+    width: 27rem;
+}
+
 .searchBar {
     height: 4.5rem;
     width: 100%;
@@ -100,6 +104,8 @@ main {
 
 .searchBar img {
     margin-right: 1.3rem;
+    width: 15px;
+    cursor: pointer;
 }
 
 .buttons {
